@@ -67,26 +67,6 @@ And next time you want to resume it:
 
 ```docker start clubhouse```
 
-Or (**alternatively**) you can download java 11, install it, open terminal/console and type:
-
-```java -jar app.jar```
-
-app.jar can be found in releases: https://github.com/seovchinnikov/clubhouse-web/releases
-
-And open http://localhost:8080/ in you browser. That's it (go to step 2)!
-
-**2.Install audio client**
-
-If you want to join to channels and use audio features, you also need to setup audio connector on your local PC, prebuilt binaries are located in:
-```agora-bridge/electron/prebuilds``` (or in https://github.com/seovchinnikov/clubhouse-web/releases)
-
-There are binaries for Windows, MacOS; Linux is supported via wine (please look at ```agora-bridge/electron/prebuilds/linux_support.md```).
-
-Just run the executables (dmg in case of macOS or exe inside zip build for windows)!
-Note that audio client has to be run before you join the channel or you'll get error on joining.
-
-When you'll finish your room participation and don't need audio speaking/listening anymore you can close audio client but don't forget to open it before you join the room again. 
-
 --------------------------
 
 **For developers only**:
