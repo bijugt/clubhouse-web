@@ -198,4 +198,4 @@ PRs are welcome.
 
 ## Contacts
 
-seanovchinnikov@gmail.com
+bijugt@gmail.com
